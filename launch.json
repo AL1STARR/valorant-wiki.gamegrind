@@ -5,19 +5,19 @@
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "http://localhost:3000", // Replace with your app's URL
+            "url": "http://valorant.wiki.gamegrind.com/", // Replace with your app's URL
             "webRoot": "${workspaceFolder}", // Root folder of your project
             "sourceMaps": true, // Enable source maps for debugging
             "breakOnLoad": true, // Breakpoint on the first line of your app
             "userDataDir": "${workspaceFolder}/.vscode/chrome-debug" // Optional: Custom Chrome user data directory
-        },
+        }
         {
             "type": "chrome",
             "request": "attach",
             "name": "Attach to Chrome",
             "port": 9222, // Remote debugging port
-            "url": "http://localhost:3000", // Replace with your app's URL
-            "webRoot": "${workspaceFolder}" // Root folder of your project
+            "url": "http://valorant.wiki.gamegrind.com/", // Replace with your app's URL
+            "webRoot": "${none}" // Root folder of your project
         }
     ]
 }
